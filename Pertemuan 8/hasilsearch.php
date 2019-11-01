@@ -1,4 +1,4 @@
-</php
+<?php
 $kolom=$_POST['kolom'];
 $cari=$_POST['cari'];
 $conn=mysql_connect("localhost","root","");
