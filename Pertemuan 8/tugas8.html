@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Tabel Mahasiswa </title>
+  <meta name="viewport" content="widht=device-widht,initial-scale=1">
+  <link rel="stylesheet" type="tect/css" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+    <script src="bootstrap.mmin.js"></script>
+</head>
+<body>
+  <div class="container">
+  <h1> TAMBAH DATA </h1>
+  <form action="tugas8.1.php" method="post">
+    <p>
+      <label for="nrp">NRP : </label>
+      <input type="textarea" name="nrp" placeholder="nrp...">
+    </p>
+    <p>
+      <label for="nama">Nama : </label>
+      <input type="textarea" name="nama" placeholder="nama...">
+    </p>
+    <p>
+      <label for="foto">Foto : </label>
+      <input type="file" name="foto"placeholder="foto...">
+    <p>
+      <label for="jurusan">Jurusan  : </label>
+      <select name="jurusan">
+        <option value="telekomunikasi">Telekomunikasi</option>
+        <option value="elka">Elka</option>
+        <option value="it">IT</option>
+        <option value="elin">Elin</option>
+      </select>
+    </p>
+    <p>
+      <button type="submit" name="tambah" value="send">Tambah</button>
+    </p>
+    <br>
+    <br>
+    <p>===============================================================</p>
+    <h2> SEARCH DATA </h2>
+    <p>
+      <label for="nama">Nama : </label>
+      <input type="textarea" name="nama" placeholder="nama...">
+    </p>
+    <p>
+      <button type="submit" name="Cari Data" value="cari">Cari Data</button>
+    </p>
+    <p>===============================================================</p>
+    <h3> HAPUS DATA </h3>
+    <p>
+      <label for="nama">Nama : </label>
+      <input type="textarea" name="nama" placeholder="nama...">
+    </p>
+    <p>
+      <button type="submit" name="Hapus Data" value="delete">Hapus Data</button>
+    </p>
+  </form>
+</body>
+</html>
